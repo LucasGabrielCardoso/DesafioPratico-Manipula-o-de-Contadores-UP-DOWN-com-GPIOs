@@ -1,0 +1,127 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18LF14K22 ]
+[d frameptr 4065 ]
+"49 C:\Users\LucasGabriel\Desktop\desafio1.X\main.c
+[e E2454 . `uc
+ACIONADO 0
+DESACIONADO 1
+]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"23 C:\Users\LucasGabriel\Desktop\desafio1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"81
+[v _Delay_ms Delay_ms `(v  1 e 1 0 ]
+"615 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18F-K_DFP/1.7.134/xc8\pic\include\proc\pic18lf14k22.h
+[v _WPUB WPUB `VEuc  1 e 1 @3960 ]
+"769
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"889
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+[s S90 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"1233
+[s S96 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 RX 1 0 :1:5 
+`uc 1 SCL 1 0 :1:6 
+`uc 1 TX 1 0 :1:7 
+]
+[s S102 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 DT 1 0 :1:5 
+`uc 1 SCK 1 0 :1:6 
+`uc 1 CK 1 0 :1:7 
+]
+[s S108 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 AN10 1 0 :1:4 
+`uc 1 AN11 1 0 :1:5 
+]
+[u S112 . 1 `S90 1 . 1 0 `S96 1 . 1 0 `S102 1 . 1 0 `S108 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES112  1 e 1 @3969 ]
+"1546
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1624
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1690
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1802
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1956
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2086
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2308
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+"5442
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"5474
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S35 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RABPU 1 0 :1:7 
+]
+"6032
+[s S38 . 1 `uc 1 RABIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRABPU 1 0 :1:7 
+]
+[s S47 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RABPU 1 0 :1:7 
+]
+[s S51 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+[s S54 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[u S57 . 1 `S35 1 . 1 0 `S38 1 . 1 0 `S47 1 . 1 0 `S51 1 . 1 0 `S54 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES57  1 e 1 @4081 ]
+"23 C:\Users\LucasGabriel\Desktop\desafio1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"50
+[v main@SELO_BNT2 SELO_BNT2 `E2454  1 a 1 7 ]
+"49
+[v main@SELO_BNT1 SELO_BNT1 `E2454  1 a 1 6 ]
+"79
+} 0
+"81
+[v _Delay_ms Delay_ms `(v  1 e 1 0 ]
+{
+[v Delay_ms@tempo tempo `ul  1 p 4 0 ]
+"88
+} 0
